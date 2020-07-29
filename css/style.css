@@ -13,6 +13,10 @@ body {
     margin: 10px;
 }
 
+h1, h2, h3, h4, h5 {
+    margin: 20px 0px;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -47,4 +51,20 @@ header {
 
 main {
     margin: 70px 30px 0px 30px;
+}
+
+#mission {
+    width: 1200px;
+    height: 700px;
+    background-image: url(../media/img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#missionText {
+    width: 100%;
+    background-color: black;
 }
