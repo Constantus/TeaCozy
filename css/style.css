@@ -10,7 +10,6 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    margin: 10px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -26,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
     border-bottom: 1px solid seashell;
 }
 
@@ -51,6 +51,10 @@ header {
 
 main {
     margin: 70px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #mission {
@@ -67,4 +71,69 @@ main {
 #missionText {
     width: 100%;
     background-color: black;
+}
+
+#featuredTea {
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.teaListing {
+    display: inline-block;
+    margin: 10px;
+}
+
+.listingImg {
+    width: 300px;
+    height: 200px;
+}
+
+.listingTitle {
+    margin-top: 10px;
+}
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../media/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top -70px center;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+#locationListings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationListing {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 0px 20px;
+}
+
+#contact {
+    height: 200px;
+}
+
+#contact h1 {
+    margin: 5px 0px 40px 0px;
+}
+
+#copyright {
+    text-align: left;
+}
+
+#copyright p {
+    margin-left: 20px;
 }
